@@ -1,0 +1,24 @@
+.navbar{
+  position: fixed !important;
+  box-shadow: 1px 3px 3px rgba(128, 128, 128, 0.553);
+  min-width: 100%;
+  z-index: 1000;
+}
+.card{
+  box-shadow: 1px 1px 1px  rgba(128, 128, 128, 0.264);
+  border: none;
+  transition: 0.5s;
+}
+.card:hover{
+  box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.874);
+}
+.card-img-top{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.productPrice{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
